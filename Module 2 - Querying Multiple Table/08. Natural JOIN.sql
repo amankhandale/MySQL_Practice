@@ -7,5 +7,5 @@ SELECT orderNumber, customerNumber, customerName
 FROM orders
 NATURAL JOIN customers;
 
--- we dont recommend to use this
+-- We dont recommend to use this
 -- because you lose control on the join condition and expected results
