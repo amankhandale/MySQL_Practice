@@ -7,7 +7,7 @@ FROM products
 WHERE productLine = 'Vintage Cars';
 
 
--- Using Subquery (Query inside a Query)
+-- Using Subquery (Query inside a Bigger Query)
 SELECT *
 FROM  products
 WHERE productLine =
